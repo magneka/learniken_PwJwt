@@ -1,0 +1,44 @@
+{
+	"aspnetusers": [
+		{
+			"UserName": "magnea@uc.no",
+			"FullName": "Magne Alvheim",
+			"PasswordHash": "AQAAAAEAACcQAAAAEDLyUra493J6KXbwxAGO7TxLnFqP0pqaKV+gddikr+5Zf7dcLnctzo1DlPlqZ2gjzw=="
+		},		
+		{
+			"Id": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+			"Password": "Sublime1!",
+			"UserName": "Anna78@gmail.com",
+			"FullName": "Anna Jørgensen",
+			"PasswordHash": "AQAAAAEAACcQAAAAEEXa96q63q4yFK9nKfcofhei3GA36BAEMiVBTf+/zuuBru1BQfRSaGaCK/HxbPrWQA=="
+		  },
+		  {
+			"Id": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+			"Password": "Centum6!",
+			"UserName": "Mathias41@hotmail.com",
+			"FullName": "Mathias Ruud",
+			"PasswordHash": "AQAAAAEAACcQAAAAEDrJajpatRD+vsQhRHkAnPfO1tGVxSeYl4fhGAY6HfxiR4wHszpo15enFdjTW+Y/bQ=="
+		  },
+		  {
+			"Id": "4328f234-614e-4a94-a52b-93cde018c2ad",
+			"Password": "Versus7!",
+			"UserName": "Erik.Ruud52@gmail.com",
+			"FullName": "Erik Ruud",
+			"PasswordHash": "AQAAAAEAACcQAAAAEOtMbl8/iKOZO2iwY7m5i7HgRkja3EYmLfeMzNA5xgz5cblmVsxpYluF3SH7FKpKgw=="
+		  },
+		  {
+			"Id": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+			"Password": "Venio7!",
+			"UserName": "Noah.Hansen17@yahoo.com",
+			"FullName": "Noah Hansen",
+			"PasswordHash": "AQAAAAEAACcQAAAAECfyZTMZz9mNiqYHP8vsaYWL/czK2g6e4YOF5Fih7nrKrEShMzeYg8gwOXFB73t7kw=="
+		  },
+		  {
+			"Id": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+			"Password": "Uredo8!",
+			"UserName": "Camilla.R6wed60@gmail.com",
+			"FullName": "Camilla Røed",
+			"PasswordHash": "AQAAAAEAACcQAAAAEKSp8IU8RfCONkM1aF6mcVWh3YeLSJfmfXIAjuTSdtDUZH/wtJksgnUKVw9EhzY1Tg=="
+		  }
+	]
+}

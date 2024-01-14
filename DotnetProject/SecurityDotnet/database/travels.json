@@ -1,0 +1,552 @@
+[
+    {
+        "Id": 1,
+        "UserId": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+        "Airline": {
+          "name": "Nordwind Airlines",
+          "iataCode": "N4"
+        },
+        "From": {
+          "name": "Fortaleza Pinto Martins International Airport",
+          "iataCode": "FOR"
+        },
+        "To": {
+          "name": "Beijing Capital International Airport",
+          "iataCode": "PEK"
+        },
+        "Seat": "25E",
+        "Airplane": {
+          "name": "Turkish Airlines",
+          "iataCode": "TK"
+        },
+        "Date": "2023-01-28T16:29:29.011Z"
+      },
+      {
+        "Id": 2,
+        "UserId": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+        "Airline": {
+          "name": "Philippine Airlines",
+          "iataCode": "PR"
+        },
+        "From": {
+          "name": "Taiwan Taoyuan International Airport",
+          "iataCode": "TPE"
+        },
+        "To": {
+          "name": "Phoenix Sky Harbor International Airport",
+          "iataCode": "PHX"
+        },
+        "Seat": "1B",
+        "Airplane": {
+          "name": "TUI Airways",
+          "iataCode": "BY"
+        },
+        "Date": "2023-06-29T10:08:43.759Z"
+      },
+      {
+        "Id": 3,
+        "UserId": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+        "Airline": {
+          "name": "Wizz Air",
+          "iataCode": "W6"
+        },
+        "From": {
+          "name": "Daniel K. Inouye International Airport",
+          "iataCode": "HNL"
+        },
+        "To": {
+          "name": "Leonardo da Vinci-Fiumicino Airport",
+          "iataCode": "FCO"
+        },
+        "Seat": "11D",
+        "Airplane": {
+          "name": "IndiGo Airlines",
+          "iataCode": "6E"
+        },
+        "Date": "2023-10-03T18:27:24.462Z"
+      },
+      {
+        "Id": 4,
+        "UserId": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+        "Airline": {
+          "name": "TAP Air Portugal",
+          "iataCode": "TP"
+        },
+        "From": {
+          "name": "Denver International Airport",
+          "iataCode": "DEN"
+        },
+        "To": {
+          "name": "Ninoy Aquino International Airport",
+          "iataCode": "MNL"
+        },
+        "Seat": "28E",
+        "Airplane": {
+          "name": "TUI Airways",
+          "iataCode": "BY"
+        },
+        "Date": "2024-05-31T12:20:32.808Z"
+      },
+      {
+        "Id": 5,
+        "UserId": "8ec2430e-c343-4403-9c9d-892f50a3e7f5",
+        "Airline": {
+          "name": "Ethiopian Airlines",
+          "iataCode": "ET"
+        },
+        "From": {
+          "name": "Charlotte Douglas International Airport",
+          "iataCode": "CLT"
+        },
+        "To": {
+          "name": "Perth Airport",
+          "iataCode": "PER"
+        },
+        "Seat": "11D",
+        "Airplane": {
+          "name": "VivaAerobus",
+          "iataCode": "VB"
+        },
+        "Date": "2024-03-31T16:08:50.630Z"
+      },
+      {
+        "Id": 6,
+        "UserId": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+        "Airline": {
+          "name": "El Al",
+          "iataCode": "LY"
+        },
+        "From": {
+          "name": "Dallas Fort Worth International Airport",
+          "iataCode": "DFW"
+        },
+        "To": {
+          "name": "Jorge Chavez International Airport",
+          "iataCode": "LIM"
+        },
+        "Seat": "35A",
+        "Airplane": {
+          "name": "Virgin Atlantic Airways",
+          "iataCode": "VS"
+        },
+        "Date": "2025-01-02T09:57:06.137Z"
+      },
+      {
+        "Id": 7,
+        "UserId": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+        "Airline": {
+          "name": "Gol Linhas Aereas Inteligentes",
+          "iataCode": "G3"
+        },
+        "From": {
+          "name": "O. R. Tambo International Airport",
+          "iataCode": "JNB"
+        },
+        "To": {
+          "name": "Auckland International Airport",
+          "iataCode": "AKL"
+        },
+        "Seat": "24A",
+        "Airplane": {
+          "name": "Thai Airways",
+          "iataCode": "TG"
+        },
+        "Date": "2023-11-23T02:46:00.319Z"
+      },
+      {
+        "Id": 8,
+        "UserId": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+        "Airline": {
+          "name": "Tunisair",
+          "iataCode": "TU"
+        },
+        "From": {
+          "name": "King Abdulaziz International Airport",
+          "iataCode": "JED"
+        },
+        "To": {
+          "name": "Amsterdam Airport Schiphol",
+          "iataCode": "AMS"
+        },
+        "Seat": "16E",
+        "Airplane": {
+          "name": "Emirates Airlines",
+          "iataCode": "EK"
+        },
+        "Date": "2024-08-23T14:28:44.013Z"
+      },
+      {
+        "Id": 9,
+        "UserId": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+        "Airline": {
+          "name": "United Airlines",
+          "iataCode": "UA"
+        },
+        "From": {
+          "name": "Taiwan Taoyuan International Airport",
+          "iataCode": "TPE"
+        },
+        "To": {
+          "name": "Beijing Capital International Airport",
+          "iataCode": "PEK"
+        },
+        "Seat": "27F",
+        "Airplane": {
+          "name": "Air Transat",
+          "iataCode": "TS"
+        },
+        "Date": "2023-03-18T13:56:21.206Z"
+      },
+      {
+        "Id": 10,
+        "UserId": "e19a1b19-ad38-4d5a-bf38-1cf9203b737b",
+        "Airline": {
+          "name": "VietJet Air",
+          "iataCode": "VJ"
+        },
+        "From": {
+          "name": "Cairns Airport",
+          "iataCode": "CNS"
+        },
+        "To": {
+          "name": "Oslo Lufthavn",
+          "iataCode": "OSL"
+        },
+        "Seat": "23D",
+        "Airplane": {
+          "name": "Spring Airlines",
+          "iataCode": "9S"
+        },
+        "Date": "2024-10-28T07:03:26.705Z"
+      },
+      {
+        "Id": 11,
+        "UserId": "4328f234-614e-4a94-a52b-93cde018c2ad",
+        "Airline": {
+          "name": "Lion Air",
+          "iataCode": "JT"
+        },
+        "From": {
+          "name": "Zhukovsky International Airport",
+          "iataCode": "ZIA"
+        },
+        "To": {
+          "name": "Faa'a International Airport",
+          "iataCode": "PPT"
+        },
+        "Seat": "33C",
+        "Airplane": {
+          "name": "SAS",
+          "iataCode": "SK"
+        },
+        "Date": "2024-11-22T12:01:07.966Z"
+      },
+      {
+        "Id": 12,
+        "UserId": "4328f234-614e-4a94-a52b-93cde018c2ad",
+        "Airline": {
+          "name": "Allegiant Air",
+          "iataCode": "G4"
+        },
+        "From": {
+          "name": "Kunming Changshui International Airport",
+          "iataCode": "KMG"
+        },
+        "To": {
+          "name": "Kunming Changshui International Airport",
+          "iataCode": "KMG"
+        },
+        "Seat": "7B",
+        "Airplane": {
+          "name": "Air India",
+          "iataCode": "AI"
+        },
+        "Date": "2023-04-26T00:35:06.880Z"
+      },
+      {
+        "Id": 13,
+        "UserId": "4328f234-614e-4a94-a52b-93cde018c2ad",
+        "Airline": {
+          "name": "Lufthansa",
+          "iataCode": "LH"
+        },
+        "From": {
+          "name": "Miami International Airport",
+          "iataCode": "MIA"
+        },
+        "To": {
+          "name": "Miami International Airport",
+          "iataCode": "MIA"
+        },
+        "Seat": "35E",
+        "Airplane": {
+          "name": "Thai Airways",
+          "iataCode": "TG"
+        },
+        "Date": "2023-02-06T00:01:13.826Z"
+      },
+      {
+        "Id": 14,
+        "UserId": "4328f234-614e-4a94-a52b-93cde018c2ad",
+        "Airline": {
+          "name": "Azur Air",
+          "iataCode": "ZF"
+        },
+        "From": {
+          "name": "Dusseldorf Airport",
+          "iataCode": "DUS"
+        },
+        "To": {
+          "name": "Recife Guararapes-Gilberto Freyre International Airport",
+          "iataCode": "REC"
+        },
+        "Seat": "4C",
+        "Airplane": {
+          "name": "Air Europa",
+          "iataCode": "UX"
+        },
+        "Date": "2024-01-21T21:00:06.338Z"
+      },
+      {
+        "Id": 15,
+        "UserId": "4328f234-614e-4a94-a52b-93cde018c2ad",
+        "Airline": {
+          "name": "Lufthansa",
+          "iataCode": "LH"
+        },
+        "From": {
+          "name": "Dusseldorf Airport",
+          "iataCode": "DUS"
+        },
+        "To": {
+          "name": "Cairns Airport",
+          "iataCode": "CNS"
+        },
+        "Seat": "13F",
+        "Airplane": {
+          "name": "Qatar Airways",
+          "iataCode": "QR"
+        },
+        "Date": "2023-01-11T18:00:58.940Z"
+      },
+      {
+        "Id": 16,
+        "UserId": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+        "Airline": {
+          "name": "Cathay Pacific",
+          "iataCode": "CX"
+        },
+        "From": {
+          "name": "Aeroparque Jorge Newbery Airport",
+          "iataCode": "AEP"
+        },
+        "To": {
+          "name": "Hong Kong International Airport",
+          "iataCode": "HKG"
+        },
+        "Seat": "20E",
+        "Airplane": {
+          "name": "Egyptair",
+          "iataCode": "MS"
+        },
+        "Date": "2023-11-16T21:52:10.780Z"
+      },
+      {
+        "Id": 17,
+        "UserId": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+        "Airline": {
+          "name": "SAS",
+          "iataCode": "SK"
+        },
+        "From": {
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "iataCode": "ATL"
+        },
+        "To": {
+          "name": "Suvarnabhumi Airport",
+          "iataCode": "BKK"
+        },
+        "Seat": "15E",
+        "Airplane": {
+          "name": "Alitalia",
+          "iataCode": "AZ"
+        },
+        "Date": "2023-12-05T23:44:47.098Z"
+      },
+      {
+        "Id": 18,
+        "UserId": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+        "Airline": {
+          "name": "LOT Polish Airlines",
+          "iataCode": "LO"
+        },
+        "From": {
+          "name": "Zurich Airport",
+          "iataCode": "ZRH"
+        },
+        "To": {
+          "name": "La Tontouta International Airport",
+          "iataCode": "NOU"
+        },
+        "Seat": "5E",
+        "Airplane": {
+          "name": "Delta Air Lines",
+          "iataCode": "DL"
+        },
+        "Date": "2024-03-06T21:36:18.428Z"
+      },
+      {
+        "Id": 19,
+        "UserId": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+        "Airline": {
+          "name": "Air Arabia",
+          "iataCode": "G9"
+        },
+        "From": {
+          "name": "Kuala Lumpur International Airport",
+          "iataCode": "KUL"
+        },
+        "To": {
+          "name": "Vienna International Airport",
+          "iataCode": "VIE"
+        },
+        "Seat": "32D",
+        "Airplane": {
+          "name": "Malaysia Airlines",
+          "iataCode": "MH"
+        },
+        "Date": "2023-01-21T02:45:29.061Z"
+      },
+      {
+        "Id": 20,
+        "UserId": "ac5bad14-4545-4550-bc7e-fbbeea59793e",
+        "Airline": {
+          "name": "Hawaiian Airlines",
+          "iataCode": "HA"
+        },
+        "From": {
+          "name": "Kuala Lumpur International Airport",
+          "iataCode": "KUL"
+        },
+        "To": {
+          "name": "Beijing Capital International Airport",
+          "iataCode": "PEK"
+        },
+        "Seat": "7A",
+        "Airplane": {
+          "name": "Sun Country Airlines",
+          "iataCode": "SY"
+        },
+        "Date": "2024-03-04T03:40:24.393Z"
+      },
+      {
+        "Id": 21,
+        "UserId": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+        "Airline": {
+          "name": "Emirates Airlines",
+          "iataCode": "EK"
+        },
+        "From": {
+          "name": "Perth Airport",
+          "iataCode": "PER"
+        },
+        "To": {
+          "name": "Berlin-Tegel Airport",
+          "iataCode": "TXL"
+        },
+        "Seat": "19A",
+        "Airplane": {
+          "name": "Pakistan International Airlines",
+          "iataCode": "PK"
+        },
+        "Date": "2023-10-07T10:29:31.936Z"
+      },
+      {
+        "Id": 22,
+        "UserId": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+        "Airline": {
+          "name": "Jeju Air",
+          "iataCode": "7C"
+        },
+        "From": {
+          "name": "Frankfurt am Main Airport",
+          "iataCode": "FRA"
+        },
+        "To": {
+          "name": "Mohammed V International Airport",
+          "iataCode": "CMN"
+        },
+        "Seat": "22D",
+        "Airplane": {
+          "name": "Delta Air Lines",
+          "iataCode": "DL"
+        },
+        "Date": "2024-07-06T12:28:13.981Z"
+      },
+      {
+        "Id": 23,
+        "UserId": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+        "Airline": {
+          "name": "Air Europa",
+          "iataCode": "UX"
+        },
+        "From": {
+          "name": "Murtala Muhammed International Airport",
+          "iataCode": "LOS"
+        },
+        "To": {
+          "name": "John F Kennedy International Airport",
+          "iataCode": "JFK"
+        },
+        "Seat": "3A",
+        "Airplane": {
+          "name": "Air Transat",
+          "iataCode": "TS"
+        },
+        "Date": "2023-06-27T15:13:18.936Z"
+      },
+      {
+        "Id": 24,
+        "UserId": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+        "Airline": {
+          "name": "Jeju Air",
+          "iataCode": "7C"
+        },
+        "From": {
+          "name": "Orlando International Airport",
+          "iataCode": "MCO"
+        },
+        "To": {
+          "name": "Beijing Capital International Airport",
+          "iataCode": "PEK"
+        },
+        "Seat": "27B",
+        "Airplane": {
+          "name": "Finnair",
+          "iataCode": "AY"
+        },
+        "Date": "2025-01-05T07:23:53.325Z"
+      },
+      {
+        "Id": 25,
+        "UserId": "e4482a81-3975-43ae-9e6a-1da11349d0ef",
+        "Airline": {
+          "name": "JetBlue Airways",
+          "iataCode": "B6"
+        },
+        "From": {
+          "name": "Leonardo da Vinci-Fiumicino Airport",
+          "iataCode": "FCO"
+        },
+        "To": {
+          "name": "Oslo Lufthavn",
+          "iataCode": "OSL"
+        },
+        "Seat": "16E",
+        "Airplane": {
+          "name": "Beijing Capital Airlines",
+          "iataCode": "JD"
+        },
+        "Date": "2023-06-03T08:34:32.986Z"
+      }
+]

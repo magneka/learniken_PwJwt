@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        html, input, button {font-size: 25px;}
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        th, td { border: 1px solid; padding: 15px; }
+    </style>
+</head>
+
+<body>
+    <a href="register.html">Register</a>&nbsp;&nbsp;
+    <a href="login.html">Login</a>&nbsp;&nbsp;
+    <a href="restricted.html">Hent data som krever pålogging</a></br>
+
+    <h1>Logg på</h1>
+
+    <label for="email"><b>Epost adresse</b></label></br>
+    <input type="text" placeholder="Enter email" name="email" id="email" required></br></br>
+
+    <label for="password"><b>Passord</b></label></br>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required></br></br>
+
+    <button type="submit" onclick="login()">Logg på</button></br></br>
+
+    <div id="log" />
+
+    <script>
+        async function login() {
+            // Hent verdier fra dom
+            let email = document.getElementById('email').value
+            let password = document.getElementById('password').value
+            
+            document.getElementById('log').innerHTML = 'logging in: ' + email + ', ' + password + '\n</br>'
+            
+            // Opsjoner for request
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    email: email, 
+                    password: password 
+                })
+            };
+
+            // Kjør request med fetch
+            const response = await fetch('/login', requestOptions);
+            const data = await response.json();
+            
+            // Dersom vi fikk token må vi lagre det
+            if (data.token) {
+                localStorage.setItem('faggruppe', data.token);                
+                document.getElementById('log').innerHTML += 'Token: ' + data.token;
+            }        
+        }
+    </script>
+
+</body>
+
+</html>

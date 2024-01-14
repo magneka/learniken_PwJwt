@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hent data som krever pålogging</title>
+    <style>
+        html,
+        input,
+        button {
+            font-size: 25px;
+        }
+
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="register.html">Register</a>&nbsp;&nbsp;
+    <a href="login.html">Login</a>&nbsp;&nbsp;
+    <a href="restricted.html">Hent data som krever pålogging</a></br>
+
+    <h1>Søk etter reiser</h1>
+    <label for="destinasjon"><b>Destinasjon</b></label></br>
+    <input type="text" placeholder="Oppgi destinasjon" name="destinasjon" id="destinasjon" required></br></br>
+
+    <button type="submit" onclick="submit()">Søk destinasjon</button></br></br>
+
+    <div id="result" />
+
+    <script>
+        async function submit() {
+
+            let destinasjon = document.getElementById('destinasjon').value
+            //alert('Search for ' + destinasjon)
+
+            let token = localStorage.getItem('faggruppe');
+            if (token) {
+                // Opsjoner for request
+                const requestOptions = {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify({
+                        destinasjon: destinasjon,
+                    })
+                };
+
+                const response = await fetch('/travels', requestOptions)
+
+                if (response.status !== 200) {
+                    alert('Request failed: ' + response.statusText)
+                } else {
+                    const data = await response.json();
+                    var table = document.createElement('table');
+                    for (var i = 0; i < data.length; i++) {
+                        var tr = document.createElement('tr');
+
+                        var td0 = document.createElement('td');
+                        var text0 = document.createTextNode(data[i].Date);
+                        td0.appendChild(text0);
+                        tr.appendChild(td0);
+
+                        var td1 = document.createElement('td');
+                        var text1 = document.createTextNode(data[i].Airline.name);
+                        td1.appendChild(text1);
+                        tr.appendChild(td1);
+
+                        var td2 = document.createElement('td');
+                        var text2 = document.createTextNode(data[i].From.name);
+                        td2.appendChild(text2);
+                        tr.appendChild(td2);
+
+                        var td3 = document.createElement('td');
+                        var text3 = document.createTextNode(data[i].To.name);
+                        td3.appendChild(text3);
+                        tr.appendChild(td3);
+
+                        table.appendChild(tr);
+                    }
+                    document.getElementById('result').replaceChildren(table)
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
