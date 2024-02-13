@@ -62,8 +62,6 @@ public class MsIdentityService {
 
     public static boolean validatePassword (String password, String hashedString) {
         
-        //String result = "";
-
         byte[] decodedBytes = Base64.getDecoder().decode(hashedString);
         String hexHashedPassword = bytesToHex(decodedBytes);
 
